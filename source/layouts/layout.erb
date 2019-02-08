@@ -12,6 +12,10 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+    <%= partial "layouts/navbar" %>
     <%= yield %>
+    <!-- to do: add footer -->
+    <%= partial "layouts/footer" %>
+
   </body>
 </html>
