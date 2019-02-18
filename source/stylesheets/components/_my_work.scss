@@ -1,12 +1,15 @@
 
-
-
 .projects {
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-  color: #2d2d2d;
+  margin-top: 40px;
 }
 
+.heading_mywork{
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 700px;
+
+}
 *, *:before, *:after{
   margin: 0;
   padding: 0;
@@ -16,7 +19,7 @@
 }
 
 body{
-  background: #f9f9f9;
+  background: #EFEFEF;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
 }
@@ -28,11 +31,7 @@ body{
   padding: 0.7em 0;
 }
 
-.container{
-  padding: 1em 0;
-  float: left;
-  width: 50%;
-}
+
 @media screen and (max-width: 640px){
   .container{
     display: block;
@@ -56,14 +55,10 @@ body{
   position: relative;
   width: 90%;
   max-width: 400px;
-  margin: auto;
   overflow: hidden;
   height: 350px;
   width: 450px;
-  border-radius: 6px 6px 6px;
-  box-shadow: 4px 5px 2px #ced3de;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  padding: 0px;
 }
 
 .content .content-overlay {
@@ -143,16 +138,16 @@ body{
 
 .card-category {
   height: 350px;
-  width: 450px;
-  border-radius: 6px 6px 6px;
-  box-shadow: 1px 3px 2px #ced3de;
-  opacity: 0.9;
+  width: 400px;
+
 }
 
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1px;
+  padding-bottom: 50px;
+  margin-left: 100px;
+
 }
 
 // Smallest device
@@ -186,6 +181,6 @@ body{
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0fr 0fr 0fr;
   }
 }
