@@ -1,4 +1,4 @@
-.container {
+.about-container {
   display: contents;
 }
 
@@ -7,6 +7,34 @@
   padding: 50px;
 }
 
-.about_section{
-  background: green;
+.about-text {
+  background-color: #FF7376;
+  height: 550px;
+  color: white;
 }
+
+.about-title {
+  text-align: center;
+  font-weight: 900px;
+  padding: 50px 50px;
+}
+
+.about-dialogue {
+  padding-top: 50px;
+}
+
+.about-dialogue-last {
+  padding-bottom: 80px;
+}
+
+p{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+
+
+
+
