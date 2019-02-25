@@ -1,3 +1,11 @@
+
+.unfixed-wrapper {
+    margin-bottom: 4px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
 .about-container {
   display: contents;
 }

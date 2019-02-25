@@ -17,10 +17,10 @@
 }
 
 @mixin white-gradient {
-  background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+
 }
 
-$animationSpeed: 40s;
+$animationSpeed: 30s;
 
 // Animation
 @keyframes scroll {
@@ -31,11 +31,11 @@ $animationSpeed: 40s;
 
 // Styling
 .slider {
-  background: white;
+  background: #46baa8;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-  height: 100px;
+  height: 150px;
   margin: auto;
-  overflow:hidden;
+  overflow: hidden;
   position: relative;
   width: 960px;
 
@@ -43,7 +43,7 @@ $animationSpeed: 40s;
   &::after {
     @include white-gradient;
     content: "";
-    height: 100px;
+    height: 150px;
     position: absolute;
     width: 200px;
     z-index: 2;
@@ -67,7 +67,8 @@ $animationSpeed: 40s;
   }
 
   .slide {
-    height: 100px;
+    height: 150px;
     width: 250px;
+    margin-top: 20px;
   }
 }
