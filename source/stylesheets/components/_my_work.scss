@@ -4,12 +4,22 @@
   margin-top: 40px;
 }
 
+.mywork-background {
+  background-color: #ffe255;
+  width: 1338px;
+  margin: auto;
+}
+
 .heading_mywork{
-  font-family: 'Raleway', sans-serif;
   font-size: 36px;
   font-weight: 700px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
 
 }
+
 *, *:before, *:after{
   margin: 0;
   padding: 0;
@@ -19,17 +29,11 @@
 }
 
 body{
-  background: #EFEFEF;
+  background: white;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
 }
 
-.main-title{
-  color: #2d2d2d;
-  text-align: center;
-  text-transform: capitalize;
-  padding: 0.7em 0;
-}
 
 
 @media screen and (max-width: 640px){
@@ -59,6 +63,9 @@ body{
   height: 350px;
   width: 450px;
   padding: 0px;
+  margin-left: 34px;
+  margin-top: 100px;
+
 }
 
 .content .content-overlay {
@@ -66,7 +73,7 @@ body{
   position: absolute;
   height: 99%;
   width: 100%;
-  left: 0;
+
   top: 0;
   bottom: 0;
   right: 0;
@@ -140,7 +147,6 @@ body{
 .card-category {
   height: 350px;
   width: 400px;
-
 }
 
 .cards {
@@ -148,7 +154,9 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
   padding-bottom: 50px;
   margin-left: 100px;
-
+  width: 1338px;
+  margin: auto;
+  margin-top: -60px;
 }
 
 // Smallest device
