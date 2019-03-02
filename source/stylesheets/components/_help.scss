@@ -1,13 +1,43 @@
 
 
-.help-text{
-  display: inline-block;
-  background-color: pink;
-  width: 1312px;
-  height: 500px;
+.help-container {
+  height: 309px;
+  width: 1338px;
   margin-left: 50px;
-  display: contents;
+  margin-bottom: 50px;
+  background-color: #96C4DD;;
+  margin-top: -50px;
+}
+
+.help-content {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+.help-content h1{
+  padding: 50px;
+}
+
+.btn-holder {
+  display: inline-block;
+  background-color: #46baa8;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 10px 10px 10px;
 
 }
+
+.btn-holder {
+  a {
+    color: white;
+  }
+}
+
+
 
 

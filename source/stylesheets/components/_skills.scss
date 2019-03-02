@@ -2,7 +2,7 @@
   background-color: white;
 }
 .skills {
-  background-color: #46baa8;
+  background-color: #E3B905;
   margin: 50px 50px 50px;
   height: 350px;
   position: relative;
@@ -32,12 +32,13 @@ $animationSpeed: 30s;
 
 // Styling
 .slider {
-  background: #46baa8;
+  background: #E3B905;
   height: 150px;
   margin: auto;
   overflow: hidden;
   position: relative;
   width: 960px;
+  white-space: 50px;
 
   &::before,
   &::after {
@@ -47,6 +48,7 @@ $animationSpeed: 30s;
     position: absolute;
     width: 200px;
     z-index: 2;
+    padding: 50px;
   }
 
   &::after {
